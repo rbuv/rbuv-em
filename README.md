@@ -1,6 +1,14 @@
-# Rbuv::Em
+# Rbuv::EM
 
-TODO: Write a gem description
+Provide an EventMachine compatibile layer for rbuv.
+
+## What is Rbuv
+
+Rbuv is a libuv binding for Ruby.
+
+## What is EventMachine
+
+EventMachine is an event-driven I/O and lightweight concurrency library for Ruby.
 
 ## Installation
 
@@ -27,3 +35,11 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+Rbuv is distributed under the MIT License. See LICENSE.txt for further details.
+Copyright (c) 2013 Hanfei Shen
+
+Contains code originally from 'EventMachine' available under the terms of either the GPL or Ruby's License.
+Copyright: (C) 2006-07 by Francis Cianfrocca. All Rights Reserved.

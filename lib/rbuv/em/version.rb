@@ -1,5 +1,5 @@
 module Rbuv
-  module Em
+  module EM
     VERSION = "0.0.1"
   end
 end

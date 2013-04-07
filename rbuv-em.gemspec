@@ -5,12 +5,12 @@ require 'rbuv/em/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rbuv-em"
-  spec.version       = Rbuv::Em::VERSION
+  spec.version       = Rbuv::EM::VERSION
   spec.authors       = ["Hanfei Shen"]
   spec.email         = ["qqshfox@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{EventMachine compatibility for rbuv}
+  spec.summary       = %q{EventMachine compatibility for rbuv}
+  spec.homepage      = "https://github.com/rbuv/rbuv-em"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,6 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_runtime_dependency "rbuv", ">= 0.0.5"
+
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
 end
