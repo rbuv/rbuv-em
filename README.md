@@ -1,3 +1,6 @@
+[![Dependency Status](https://gemnasium.com/rbuv/rbuv-em.png)](https://gemnasium.com/rbuv/rbuv-em)
+[![Code Climate](https://codeclimate.com/github/rbuv/rbuv-em.png)](https://codeclimate.com/github/rbuv/rbuv-em)
+
 # Rbuv::EM
 
 Provide an EventMachine compatibile layer for rbuv.
