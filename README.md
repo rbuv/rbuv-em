@@ -3,7 +3,7 @@
 
 # Rbuv::EM
 
-Provide an EventMachine compatibile layer for rbuv.
+Provide an EventMachine compatible layer for rbuv.
 
 ## What is Rbuv
 
@@ -44,5 +44,5 @@ TODO: Write usage instructions here
 Rbuv is distributed under the MIT License. See LICENSE.txt for further details.
 Copyright (c) 2013 Hanfei Shen
 
-Contains code originally from 'EventMachine' available under the terms of either the GPL or Ruby's License.
+Contains code originally from 'EventMachine' is available under the terms of either the GPL or Ruby's License.
 Copyright: (C) 2006-07 by Francis Cianfrocca. All Rights Reserved.
